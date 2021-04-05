@@ -1,4 +1,4 @@
-
+https://codeforces.com/contest/242/submission/112087943
 int n;
 int t[4 * N];
 
