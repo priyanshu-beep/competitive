@@ -1,0 +1,8 @@
+
+{
+"cmd": ["g++.exe","-Wl,--stack,513000000","-std=c++17", "${file}", "-o", "${file_base_name}.exe", "&&" , "${file_base_name}.exe<in.txt>out.txt"],
+
+"shell": true,
+"working_dir": "$file_path",
+"selector": "source.cpp"
+}
